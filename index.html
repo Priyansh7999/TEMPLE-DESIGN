@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keyword" content="Temple">
+    <meta name="describtion" content=">The temple were you experience peace and harmony.">
+    <meta name="author" content="PRIYANSH SAXENA">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--=============== FAVICON ===============-->
+    <link rel="shotcut icon" href="images/favicon.png" type="favicon">
+    <!--=============== REMIX ICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+    <title>TEMPLE</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+                <i class="ri-ancient-gate-line"></i>
+                <span>TEMPLE</span>
+            </a>
+
+            <div class="nav_menu" style="z-index: 10;" id="nav_menu">
+                <ul class="nav_list" style="z-index: 9;">
+                    <li>
+                        <a href="" class="nav_link">HOME</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav_link">LOCATION</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav_link">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav_link">EXPLORE</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav_link" style="margin-right: 5px;">CONTACT</a>
+                    </li>
+                </ul>
+
+                <!-- CLOSE BUTTON -->
+                <div class="nav_close" id="nav_close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+            <!-- TOOGLE BUTTON -->
+            <div class="nav_toogle" id="nav_toogle">
+                <i class="ri-menu-line"></i>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home">
+            <img src="images/img-bg.svg" style="z-index: -6;" alt="bg" class="home_bg">
+
+            <div class="home_container">
+                <div class="home_data">
+                    <h1 class="home_title">WELCOME TO <BR> TEMPLE</h1>
+
+                    <p class="home_description">The temple is an attractive tourist place 
+                        where you could visit and connect to the 
+                        pure land of the environment, you will 
+                        experience peace and harmony.</p>
+
+                    <button class="butt"><a href="#" class="home_button">EXPLORE PAGE</a></button>
+                    
+                   <img src="images/lantern-1.svg" alt="images" class="home_lantern-1">
+                   <img src="images/lantern-2.svg" alt="images" class="home_lantern-2">
+
+                </div>
+
+                <div class="home_images">
+                    <img src="images/img-1.svg" alt="" class="home-img-1" style="z-index: -5;">
+                    <img src="images/img-2.svg" alt="" class="home-img-2">
+                    <img src="images/img-3.svg" alt="" class="home-img-3">
+                    <img src="images/img-4.svg" alt="" class="home-img-4">
+                    <img src="images/img-5.svg" alt="" class="home-img-5">
+                    <img src="images/img-6.svg" alt="" class="home-img-6">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script>
+        // function repeat(){
+        //     gsap.killTweensOf(".home-img-1"); // kill previous animation
+        //     gsap.from(".home-img-1", { duration: 3, opacity: 0, x: 1000 });
+        // }
+        // setTimeout(repeat, 1000); // corrected setTimeout call
+        // setInterval(repeat, 4000);
+        gsap.from(".home-img-1", { duration: 3, opacity: 0, x: 1000 });
+        // gsap.from(".home-img-2", 1.5, {opacity: 0, y:400 ,delay:0.8, ease:'back.out(1.5)'});
+        // gsap.from(".home-img-3", 1.5, {opacity: 0,  y:400 ,delay:0.3, ease:'back.out(1.5)' });
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
