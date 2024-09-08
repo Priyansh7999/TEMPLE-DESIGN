@@ -6,3 +6,5 @@
 5. The website is designed to be user-friendly and easy to navigate, with clear and concise information.
 # Demo
 https://priyansh7999.github.io/TEMPLE-DESIGN/
+
+![Image Description](images/preview.png)
